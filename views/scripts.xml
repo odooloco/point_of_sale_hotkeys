@@ -4,12 +4,10 @@
     <template id="assets_backend" name="hotkeys assets"  inherit_id="web.assets_backend">
             <xpath expr="." position="inside">
             	<link rel="stylesheet" href="/point_of_sale_hotkeys/static/src/css/hotkeys.css"/>
-                <script type="text/javascript" src="/point_of_sale_hotkeys/static/src/js/jquery.hotkeys.js"></script>
 
-                <script type="text/javascript" src="/point_of_sale_hotkeys/static/src/js/mousetrap.min.js"></script>
-                <script type="text/javascript" src="/point_of_sale_hotkeys/static/src/js/mousetrap-global-bind.min.js"></script>
-
+                <script type="text/javascript" src="/point_of_sale_hotkeys/static/src/js/keyboard.js"></script>
                 <script type="text/javascript" src="/point_of_sale_hotkeys/static/src/js/hotkeys.js"></script>
+
             </xpath>
         </template>
 
