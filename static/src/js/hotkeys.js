@@ -235,7 +235,17 @@ odoo.define('hotkeys', function (require) {
 					$('.paymentmethod').removeClass('payment_selected');
 					e.preventDefault();
 					return;
-				} 				
+				}
+
+				var pselected = $('.product_selected');	
+				if(pselected.length > 0){
+                    
+					pselected.click();
+					$('.product').removeClass('product_selected');
+					$('.searchbox > input').blur();
+					e.preventDefault();
+					return;
+				}				
 			});
 			
 			keyboardJS.bind('num1', function(e) {
