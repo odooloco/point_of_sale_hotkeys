@@ -249,7 +249,7 @@ odoo.define('hotkeys', function (require) {
 			});
 			
 			keyboardJS.bind('num1', function(e) {
-				if( ! $('.next').is(":visible") && !$('.new-customer').is(":visible")){
+				if( ! $('.next').is(":visible") && !$('.new-customer').is(":visible") && ! $('.searchbox > input').is(":focus")){
 					$(".number-char" )[0].click();
 					keyboardJS.pause();
 					keyboardJS.resume();
@@ -257,7 +257,7 @@ odoo.define('hotkeys', function (require) {
 			});	  
 			
 			keyboardJS.bind('num2', function(e) {
-				if( ! $('.next').is(":visible") && !$('.new-customer').is(":visible")){
+				if( ! $('.next').is(":visible") && !$('.new-customer').is(":visible") && ! $('.searchbox > input').is(":focus")){
 					$(".number-char" )[1].click();
 					keyboardJS.pause();
 					keyboardJS.resume();
@@ -265,7 +265,7 @@ odoo.define('hotkeys', function (require) {
 			});	 
 			
 			keyboardJS.bind('num3', function(e) {	
-				if( ! $('.next').is(":visible") && !$('.new-customer').is(":visible")){			
+				if( ! $('.next').is(":visible") && !$('.new-customer').is(":visible") && ! $('.searchbox > input').is(":focus")){			
 					$(".number-char" )[2].click();
 					keyboardJS.pause();
 					keyboardJS.resume();
@@ -273,7 +273,7 @@ odoo.define('hotkeys', function (require) {
 			});	 
 			
 			keyboardJS.bind('num4', function(e) {	
-				if( ! $('.next').is(":visible") && !$('.new-customer').is(":visible")){			
+				if( ! $('.next').is(":visible") && !$('.new-customer').is(":visible") && ! $('.searchbox > input').is(":focus")){			
 					$(".number-char" )[3].click();
 					keyboardJS.pause();
 					keyboardJS.resume();
@@ -281,7 +281,7 @@ odoo.define('hotkeys', function (require) {
 			});	 
 			
 			keyboardJS.bind('num5', function(e) {	
-				if( ! $('.next').is(":visible") && !$('.new-customer').is(":visible")){			
+				if( ! $('.next').is(":visible") && !$('.new-customer').is(":visible") && ! $('.searchbox > input').is(":focus")){			
 					$(".number-char" )[4].click();
 					keyboardJS.pause();
 					keyboardJS.resume();
@@ -289,7 +289,7 @@ odoo.define('hotkeys', function (require) {
 			});	 
 			
 			keyboardJS.bind('num6', function(e) {		
-				if( ! $('.next').is(":visible") && !$('.new-customer').is(":visible")){		
+				if( ! $('.next').is(":visible") && !$('.new-customer').is(":visible") && ! $('.searchbox > input').is(":focus")){		
 					$(".number-char" )[5].click();
 					keyboardJS.pause();
 					keyboardJS.resume();
@@ -297,7 +297,7 @@ odoo.define('hotkeys', function (require) {
 			});	 
 			
 			keyboardJS.bind('num7', function(e) {		
-				if( ! $('.next').is(":visible") && !$('.new-customer').is(":visible")){		
+				if( ! $('.next').is(":visible") && !$('.new-customer').is(":visible") && ! $('.searchbox > input').is(":focus")){		
 					$(".number-char" )[6].click();
 					keyboardJS.pause();
 					keyboardJS.resume();
@@ -305,7 +305,7 @@ odoo.define('hotkeys', function (require) {
 			});	 
 			
 			keyboardJS.bind('num8', function(e) {	
-				if( ! $('.next').is(":visible") && !$('.new-customer').is(":visible")){			
+				if( ! $('.next').is(":visible") && !$('.new-customer').is(":visible") && ! $('.searchbox > input').is(":focus")){			
 					$(".number-char" )[7].click();
 					keyboardJS.pause();
 					keyboardJS.resume();
@@ -313,7 +313,7 @@ odoo.define('hotkeys', function (require) {
 			});	 
 			
 			keyboardJS.bind('num9', function(e) {	
-				if( ! $('.next').is(":visible") && !$('.new-customer').is(":visible")){			
+				if( ! $('.next').is(":visible") && !$('.new-customer').is(":visible") && ! $('.searchbox > input').is(":focus")){			
 					$(".number-char" )[8].click();
 					keyboardJS.pause();
 					keyboardJS.resume();
@@ -321,7 +321,7 @@ odoo.define('hotkeys', function (require) {
 			});	 
 			
 			keyboardJS.bind('num0', function(e) {		
-				if( ! $('.next').is(":visible") && !$('.new-customer').is(":visible")){		
+				if( ! $('.next').is(":visible") && !$('.new-customer').is(":visible") && ! $('.searchbox > input').is(":focus")){		
 					$(".number-char" )[9].click();
 					keyboardJS.pause();
 					keyboardJS.resume();
@@ -329,7 +329,7 @@ odoo.define('hotkeys', function (require) {
 			});	 
 			
 			keyboardJS.bind('numdecimal', function(e) {	
-				if( ! $('.next').is(":visible") && !$('.new-customer').is(":visible")){			
+				if( ! $('.next').is(":visible") && !$('.new-customer').is(":visible") && ! $('.searchbox > input').is(":focus")){			
 					$(".number-char" )[10].click();
 					keyboardJS.pause();
 					keyboardJS.resume();
