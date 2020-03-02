@@ -328,7 +328,7 @@ odoo.define('hotkeys', function (require) {
 				}
 			});	 
 			
-			keyboardJS.bind('numenter', function(e) {	
+			keyboardJS.bind('numdecimal', function(e) {	
 				if( ! $('.next').is(":visible") && !$('.new-customer').is(":visible")){			
 					$(".number-char" )[10].click();
 					keyboardJS.pause();
