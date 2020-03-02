@@ -345,35 +345,35 @@ odoo.define('hotkeys', function (require) {
 			});
 
 	    	keyboardJS.bind('c', function(e){
-	    		if($('.popup-password').is(":visible")){
+	    		if($('.popup-password').is(":visible") && ! $('.searchbox > input').is(":focus") ){
 	    			var clear = $('div[class="popup-numpad"] > button.numpad-char[data-action="CLEAR"]')[1];
 					clear.click();
-	    		} else if( ! $('.next').is(":visible") ){
+	    		} else if( ! $('.next').is(":visible") && ! $('.searchbox > input').is(":focus")){
 	    			$('.mode-button[data-mode="quantity"]').click();
 	    		}				
 			});
 
 			keyboardJS.bind('d', function(){
-				if( ! $('.next').is(":visible") ){
+				if( ! $('.next').is(":visible") && ! $('.searchbox > input').is(":focus")){
 					$('.mode-button[data-mode="discount"]').click();
 				}
 			});
 
 			keyboardJS.bind('p', function(){
-				if( ! $('.next').is(":visible") ){
+				if( ! $('.next').is(":visible") && ! $('.searchbox > input').is(":focus")){
 					$('.mode-button[data-mode="price"]').click();
 				}
 				
 			});
 
 			keyboardJS.bind('backspace', function(){
-				if($('.popup-password').is(":visible")){
+				if($('.popup-password').is(":visible") && ! $('.searchbox > input').is(":focus")){
 	    			var backspace = $('div[class="popup-numpad"] > button.numpad-backspace[data-action="BACKSPACE"]')[1];
 					backspace.click();
 					return;
 	    		}
 
-				if( ! $('.next').is(":visible") ){
+				if( ! $('.next').is(":visible") && ! $('.searchbox > input').is(":focus")){
 					$('.numpad-backspace')[0].click();	
 				} else {
 
